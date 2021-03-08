@@ -20,4 +20,5 @@ python解释器在读取源文件时，设置了一些特殊变量例如__name__
    后半部分为if __name__ == "__main__": 条件下的语句，只有当该模块作为主程序被运行时，变量__name__才被赋值为"__main__",
    if后面的语句才会被执行；当该模块被其他模块/程序导入或调用时，变量"__name__"被赋值为模块名（本例中为"foo"），而不是"__main__"，
    并且跳过if后面的语句，不予执行。
+详见https://stackoverflow.com/questions/419163/what-does-if-name-main-do 
    
