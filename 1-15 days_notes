@@ -1,3 +1,4 @@
+
 Python开发工具——Visual Studio Code, Pycharm
 
 使用turtle在屏幕上绘制图形
@@ -22,3 +23,7 @@ python解释器在读取源文件时，设置了一些特殊变量例如__name__
    并且跳过if后面的语句，不予执行。
 详见https://stackoverflow.com/questions/419163/what-does-if-name-main-do 
    
+#关于变量
+1. int支持二进制、八进制、十进制、十六进制，使用int()内置函数对变量类型进行转换时，可以指定进制。
+2. float()将一个字符串转换成浮点数
+3. str()将指定的对象转换成
