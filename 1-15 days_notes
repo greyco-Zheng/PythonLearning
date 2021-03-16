@@ -121,6 +121,24 @@ import module3
 （1）\n, \t, \', \\
 （2）\后面还可以跟 八进制 或 十六进制 数来表示字符
 （3）\后面跟Unicode字符编码来表示字符
+（4）在字符串最前面加r，\将不表示转义
+3. 字符串的拼接—— +运算符
+4. 字符串内容的重复—— *运算符
+5. 判断一个字符串是否包含另一个字符串—— in和not in
+6. 用切片的方式从字符串中取出特定字符——[]和[:]
+
+7. 列表——结构化的、非标量类型的值的有序序列。
+# 通过循环用下标遍历列表元素
+for index in range(len(list1)):
+    print(list1[index])
+# 通过for循环遍历列表元素
+for elem in list1:
+    print(elem)
+# 通过enumerate函数处理列表之后再遍历可以同时获得元素索引和值
+for index, elem in enumerate(list1):
+    print(index, elem)
+
+
 
 
 
